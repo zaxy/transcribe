@@ -66,7 +66,7 @@ def transcribe_audio_file():
 
     json = {
     "audio_url": audio_url,
-    "speaker_labels": true
+    "speaker_labels": True
     }
 
     headers = {
