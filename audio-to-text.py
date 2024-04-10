@@ -65,7 +65,8 @@ def transcribe_audio_file():
     endpoint = "https://api.assemblyai.com/v2/transcript"
 
     json = {
-    "audio_url": audio_url
+    "audio_url": audio_url,
+    "speaker_labels": true
     }
 
     headers = {
