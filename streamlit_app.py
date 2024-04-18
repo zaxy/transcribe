@@ -151,7 +151,7 @@ st.sidebar.header('Input parameter')
 
 with st.sidebar.form(key='my_form'):
     URL = st.text_input('Enter URL of YouTube video:') #https://youtu.be/IUTGFQpKaPU (this is an example)
-    uploaded_file = st.file_uploader("Upload your audio mp4 file:", type=["mp4"])
+    uploaded_file = st.file_uploader("Upload your audio mp4 file:", type=["mp4","mp3"])
     submit_button = st.form_submit_button(label='Transcribe')
 
 if (uploaded_file is None) and (str(URL)==''):
