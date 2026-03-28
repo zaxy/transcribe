@@ -3,3 +3,9 @@ git+https://github.com/rmerzouki/pytube.git
 altair<5
 protobuf==3.19.0
 setuptools>=65
+
+streamlit==1.33.0
+setuptools==70.0.0
+wheel
+pytube
+requests
